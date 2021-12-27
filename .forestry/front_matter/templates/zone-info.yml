@@ -1,0 +1,25 @@
+---
+label: zone info
+hide_body: true
+fields:
+- name: title
+  type: text
+  config:
+    required: false
+  label: title
+- name: cover
+  type: file
+  config:
+    maxSize: 64
+  label: cover
+- name: body
+  type: textarea
+  default: ''
+  config:
+    required: false
+    wysiwyg: false
+    schema:
+      format: markdown
+  label: body
+pages:
+- _posts/test.md
