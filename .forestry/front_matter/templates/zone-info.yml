@@ -2,22 +2,28 @@
 label: zone info
 hide_body: true
 fields:
+- name: layout
+  type: text
+  config:
+    required: false
+  label: layout
+  hidden: true
+  default: post
 - name: title
   type: text
   config:
     required: false
   label: title
-- name: cover
-  type: file
-  config:
-    maxSize: 64
-  label: cover
-- name: body
-  type: textarea
-  default: ''
+- name: date
+  type: datetime
+  label: date
+  description: ''
   config:
     required: false
-    wysiwyg: false
-    schema:
-      format: markdown
-  label: body
+    date_format: 
+    time_format: 
+    display_utc: false
+- name: categories
+  type: tag_list
+  default: []
+  label: categories
