@@ -1,6 +1,6 @@
 ---
 title: Info sur les métiers de demain
-cover: ''
+cover: "/uploads/desert-island-1.jpg"
 corpus: " Curabitur id varius dolor, eu tempor nunc. Nunc facilisis mattis libero
   eget blandit. Suspendisse erat magna, convallis quis porta vitae, interdum sollicitudin
   eros. Donec vitae ex porttitor, egestas felis ac, venenatis leo. Praesent vel pellentesque
