@@ -18,7 +18,7 @@ file_template: ":filename:"
 build:
   preview_output_directory: public
   install_dependencies_command: npm install
-  preview_docker_image: https://hub.docker.com/layers/node/library/node/lts-stretch/images/sha256-e05c7e37ce469aff3a6af59799499863cc2708e3d62ee7d62318b76a966ac740?context=explore
+  preview_docker_image: forestryio/ruby:2.6-node12
   mount_path: "/srv"
   working_dir: "/srv"
   instant_preview_command: npm run develop
