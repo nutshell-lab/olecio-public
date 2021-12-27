@@ -21,3 +21,5 @@ fields:
     schema:
       format: markdown
   label: corpus
+pages:
+- _posts/info-sur-les-metiers-de-demain.markdown
