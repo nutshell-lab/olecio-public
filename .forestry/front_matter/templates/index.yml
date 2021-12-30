@@ -1,4 +1,31 @@
 ---
 label: Index
 hide_body: true
-fields: []
+fields:
+- name: categories_principales
+  type: field_group_list
+  fields:
+  - name: nom_de_la_categorie
+    type: text
+    config:
+      required: false
+    label: Nom de la catégorie
+  - name: lien_vers_la_page_de_la_categorie
+    type: text
+    config:
+      required: false
+    label: Lien vers la page de la catégorie
+  config:
+    min: 
+    max: 
+    labelField: 
+  label: Catégories principales
+- name: meta_title
+  type: text
+  config:
+    required: false
+  label: Meta Title
+- name: meta_kw
+  type: tag_list
+  default: []
+  label: Meta Kw
